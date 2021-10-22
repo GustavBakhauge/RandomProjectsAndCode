@@ -1,2 +1,2 @@
 # RandomProjectsAndCode
-A repository 
+A repository for all the small stuff
