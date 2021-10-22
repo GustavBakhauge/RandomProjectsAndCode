@@ -77,8 +77,8 @@ class DescTree:
 
     def fit(self, X, y):
         """Fits the data, calls all our functions inside this class"""
-        self.n_features = X.shape[1] #9 features
-        self.n_classes = len(set(y)) #6 classes
+        self.n_features = X.shape[1] 
+        self.n_classes = len(set(y)) 
         self.tree = self.create_tree(X,y)
 
     def create_tree(self, X, y, depth = 0):
